@@ -285,6 +285,11 @@ textarea {
  margin-top:5rem;
  text-align:center
 }
+/* #home {
+    background-image: url("../images/forest.webp");
+    filter: blur(1px);
+    color: white;
+  } */
 .about {
  background:#fafafa
 }
