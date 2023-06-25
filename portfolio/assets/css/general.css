@@ -34,6 +34,9 @@ body {
  overflow-y:scroll;
  font-family:'Source Sans Pro',sans-serif
 }
+p{
+ text-align: justify;
+}
 a {
  text-decoration:none;
  color:inherit
