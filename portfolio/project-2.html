@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                    <img src="./assets/images/profile_picture.png" alt="Bastien Stacherski Logo Image"
+                        class="header__logo-img">
+                </div>
+                <a href="index.html"><span class="header__logo-sub">Bastien Stacherski</span></a>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="index.html" class="header__link"> Home </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#about" class="header__link">À Propos </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#projects" class="header__link"> Projets </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#contact" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg"
+                        alt="hamburger menu" class="header__main-ham-menu">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/de2a681c8ca1630b29949b3a34bf158a686a0554/6a0ec/assets/svg/ham-menu-close.svg"
+                        alt="hamburger menu close" class="header__main-ham-menu-close d-none">
+                </div>
+            </div>
+        </div>
+
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="./"> Accueil </a>
+                    </li>
+
+                    <li class="header__sm-menu-link">
+                        <a href="./#about"> À Propos </a>
+                    </li>
+
+                    <li class="header__sm-menu-link">
+                        <a href="./#projects"> Projets </a>
+                    </li>
+
+                    <li class="header__sm-menu-link">
+                        <a href="./#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="project-cs-hero">
+        <div class="project-cs-hero__content">
+            <h1 class="heading-primary">Symfony School</h1>
+            <div class="project-cs-hero__info">
+                <p class="text-primary">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error harum doloribus commodi quas
+                    voluptate nam omnis nisi fugiat a explicabo provident iusto dolores ex totam sunt veniam nulla,
+                    corporis cupiditate!
+                </p>
+            </div>
+            <div class="project-cs-hero__cta">
+                <a href="https://fc-rest.netlify.app/" class="btn btn--bg" target="_blank" rel="noreferrer">Live
+                    Link</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-details">
+        <div class="main-container">
+            <div class="project-details__content">
+                <div class="project-details__showcase-img-cont">
+                    <img src="./assets/images/project_2.png" alt="Project Image" class="project-details__showcase-img">
+                </div>
+                <div class="project-details__content-main">
+                    <div class="project-details__desc">
+                        <h2 class="project-details__content-title">Description du projet</h2>
+                        <p class="project-details__desc-para">
+                            Un projet créé avec Symfony pour gérer les élèves, les enseignants et les salles de classe
+                            qui consiste en un système de gestion scolaire. Voici un aperçu de la structure et des
+                            fonctionnalités clés du projet :
+                        </p>
+                        <h2 class="project-details__content-title">Entités</h2>
+                        <p class="project-details__desc-para">
+
+                            <strong><u>Élève</u></strong> : Une entité représentant un élève avec des attributs tels que le
+                            nom, le prénom, l'âge', l'adresse, le numéro de téléphone, etc.
+                            <strong><u>Enseignant</u></strong> : Une entité représentant un enseignant avec des attributs tels que le nom, le
+                            prénom, la discipline, la salle de cours à laquelle il est rattaché, etc.
+                            <strong><u>Salle de classe</u></strong> : Une entité représentant une salle de classe avec des attributs tels que le
+                            nom de salle, la capacité, etc.
+                        </p>
+                        <h2 class="project-details__content-title">Fonctionnalités</h2>
+                        <p class="project-details__desc-para">
+
+                            <strong>Inscription des élèves</strong> : Permettre aux administrateurs du système d'inscrire de nouveaux
+                            élèves en fournissant les informations nécessaires.<br><br>
+                            
+                            <strong>Gestion des enseignants</strong> : Permettre aux administrateurs d'ajouter, de modifier et de
+                            supprimer des enseignants du système.<br><br>
+
+                            <strong>Attribution des élèves aux salles de classe</strong> : Permettre aux administrateurs d'attribuer des
+                            élèves à des salles de classe spécifiques pour une année scolaire donnée.<br><br>
+
+                            <strong>Gestion des salles de classe</strong> : Permettre aux administrateurs de créer, modifier et supprimer
+                            des salles de classe, ainsi que de gérer leur capacité et les enseignants qui y sont affectés.<br><br>
+
+                            <strong>Affichage des détails</strong> : Fournir une interface permettant de visualiser les détails des
+                            élèves, des enseignants et des salles de classe, y compris les informations personnelles,
+                            les listes d'élèves par salle de classe, etc.<br><br>
+        
+                            <strong>Authentification et autorisation</strong> : Mettre en place un système d'authentification pour les
+                            administrateurs afin de protéger l'accès aux fonctionnalités de gestion.<br><br>
+                        </p>
+
+                        <h2 class="project-details__content-title">Architecture et utilisation de Symfony</h2>
+                        <p class="project-details__desc-para">
+                            <strong>Utilisation de Doctrine ORM</strong> : Définir les entités Élève, Enseignant et Salle de classe en
+                            tant qu'entités Doctrine pour faciliter la persistance des données dans une base de données.<br><br>
+                            <strong>Contrôleurs et routes</strong> : Créer des contrôleurs Symfony pour gérer les différentes actions,
+                            tels que l'inscription des élèves, la gestion des enseignants, etc., et définir les routes
+                            correspondantes pour y accéder.<br><br>
+                            <strong>Vues et templates</strong> : Créer des vues et des templates Twig pour afficher les différentes pages
+                            du système, y compris les formulaires d'inscription, les listes d'élèves, etc.<br><br>
+                            <strong>Sécurité</strong> : Configurer le composant de sécurité Symfony pour gérer l'authentification des
+                            administrateurs et contrôler l'accès aux fonctionnalités de gestion.
+                        </p>
+                    </div>
+                    <div class="project-details__tools-used">
+                        <h2 class="project-details__content-title">Outils utilisés</h2>
+                        <div class="skills">
+                            <div class="skills__skill">PHP</div>
+                            <div class="skills__skill">Symfony</div>
+                            <div class="skills__skill">Composer</div>
+                            <div class="skills__skill">Twig</div>
+                            <div class="skills__skill">MySQL</div>
+                            <div class="skills__skill">Bootstrap</div>
+                            <div class="skills__skill">HTML</div>
+                            <div class="skills__skill">CSS</div>
+                            <div class="skills__skill">Github</div>
+                        </div>
+                    </div>
+
+                    <div class="project-details__links">
+                        <!-- <h2 class="project-details__content-title">See Live</h2> -->
+                        <a href="" class="btn btn--med btn--theme project-details__links-btn" target="_blank"
+                            rel="noreferrer">Github</a>
+                        <a href="index.html" class="btn btn--med btn--theme project-details__links-btn">Retour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social & Contact</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://fr.linkedin.com/in/bastien-stacherski">
+                            <img class="main-footer__icon"
+                                src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+                                alt="Bastien Stacherski Linkedin Profile">
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/bast4u">
+                            <img class="main-footer__icon"
+                                src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+                                alt="Bastien Stacherski Github Profile">
+                        </a>
+                        <a target="_blank" rel="noreferrer"
+                            href="../portfolio/assets/images/CV Bastien Stacherski - Dev PHP.pdf"
+                            style="filter: invert(1);">
+                            <img class="main-footer__icon"
+                                src="../portfolio/assets/images/professional-profile-with-image.png"
+                                alt="Bastien Stacherski CV">
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="mailto:bastien.stacherskipro@gmail.com"
+                            style="filter: invert(1);">
+                            <img class="main-footer__icon" src="../portfolio/assets/images/contact_mail.svg"
+                                alt="Bastien Stacherski Contact">
+                        </a>
+
+
+
+                        <!-- <a target="_blank" rel="noreferrer" href="https://twitter.com/">
+                <img class="main-footer__icon"
+                  src="https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png"
+                  alt="XXXXX Twitter Profile">
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://dev.to/">
+                <img class="main-footer__icon"
+                  src="https://d33wubrfki0l68.cloudfront.net/c7b1e51b8c75a239d68af3d42866666580f390ec/dcc7c/assets/png/blog-ico.png"
+                  alt="XXXX DEV.to Blog Profile">
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.youtube.com/">
+                <img class="main-footer__icon main-footer__icon--mr-none"
+                  src="https://d33wubrfki0l68.cloudfront.net/493f1aa6da674c05bc606ba5b9e8092b881e8626/67c76/assets/png/yt-ico.png"
+                  alt="XXXX Youtube Channel">
+              </a> -->
+                    </div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h2 class="heading heading-sm text-lt">Bastien Stacherski</h2>
+                    <p class="main-footer__short-desc">
+                        DEVELOPPEUR BACK-END
+                    </p>
+                </div>
+            </div>
+
+            <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+            <div class="main-footer__lower">
+                © Copyright
+                <script>document.write(new Date().getFullYear())</script>. Créé par Bastien Stacherski
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://d33wubrfki0l68.cloudfront.net/js/96f5c0d4b9bdbf07570efd8e94cb7db7a5191a01/index.js"></script>
+    <script src="//code.tidio.co/hkirvl5pqs5cjjawh11xutnzjgtg9tfi.js" async=""></script>
+
+
+    <iframe id="tidio-chat-code" style="display: none;" title="Tidio Chat code"></iframe>
+    <div id="tidio-chat"><iframe title="Tidio Chat"
+            style="display: block; border: medium none; position: fixed; inset: auto 9px 35px auto; width: 270px; height: 94px; opacity: 1; color-scheme: none; background: transparent !important; margin: 0px; max-height: 100vh; max-width: 100vw; transform: translateY(0px); transition: none 0s ease 0s !important; visibility: visible; z-index: 999999999 !important; border-radius: 47px 30px 47px 47px;"
+            id="tidio-chat-iframe" srcdoc=""></iframe></div>
+</body>
+<!-- FOOTER -->
